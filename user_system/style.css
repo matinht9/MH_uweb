@@ -1,0 +1,46 @@
+body {
+    background: linear-gradient(to bottom, #ffffff 0%, #4fc3f7 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+}
+.container {
+    max-width: 800px;
+}
+form, table {
+    margin-top: 20px;
+}
+.btn-lg {
+    padding: 12px 30px;
+    font-size: 1.2rem;
+}
+.display-4 {
+    font-weight: bold;
+    color: #343a40;
+}
+.lead {
+    color: #6c757d;
+}
+
+/* Custom Table Styles */
+.custom-table {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.custom-table th,
+.custom-table td {
+    padding: 15px;
+    text-align: center;
+    vertical-align: middle;
+}
+.custom-table tbody tr {
+    transition: background-color 0.3s ease;
+}
+.custom-table tbody tr:hover {
+    background-color: #e3f2fd;
+}
+.custom-table thead {
+    background-color: #343a40;
+    color: #ffffff;
+}
